@@ -14,11 +14,13 @@ Modules/Packages used:
 
 ## Input
 It takes input through the command by which we run the python file.<br />
-If we specify '*' then it will extract the frames of all the video files present in the folder. For example:
+If we specify '*' then it will extract the frames of all the video files present in the folder.<br />
+For example:
 ```bash
 python frame_extractor.py *
 ```
-Otherwise we have to specify the file names of the video files that are present in the folder in which the program is run. For example:
+Otherwise we have to specify the file names of the video files that are present in the folder in which the program is run.<br />
+For example:
 ```bash
 python frame_extractor.py video_file_1 video_file_2 ...
 ```
